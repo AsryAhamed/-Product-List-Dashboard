@@ -28,7 +28,7 @@ This project is a user-friendly interface for managing a list of products, built
     ```bash
     npm run dev
     ```
-## UI ss
+## UI screenshot
 ![Screenshot 2024-02-05 120204](https://github.com/AsryAhamed/Product-List-Dashboard/assets/99158752/bb4057e9-d480-4d96-b8fc-ce2762bcad79)
 
 ## Testing
