@@ -1,8 +1,36 @@
-# React + Vite
+# E-commerce Product List Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a user-friendly interface for managing a list of products, built with Vite and React.js. It focuses on the Product List Page with a modern glassmorphism effect and includes pagination for efficient navigation through the product list.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Product Cards**: Each product is displayed as a card with the Product ID, Product Name, Price, Quantity in stock, and "Edit" and "View" buttons.
+- **Glassmorphism Effect**: The UI elements are designed with a modern glassmorphism effect.
+- **Data Storage**: Data is loaded dynamically from a JSON file, serving as the data storage.
+- **Pagination**: Limits the number of products displayed per page, improving the loading efficiency.
+- **Component Separation**: The application is structured into Header, Footer, and Body components.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/AsryAhamed/Product-List-Dashboard.git
+    ```
+2. Navigate into the directory:
+    ```bash
+    cd Product-List-Dashboard
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Testing
+
+To run the unit tests (if any), use the following command:
+```bash
+npm run test
